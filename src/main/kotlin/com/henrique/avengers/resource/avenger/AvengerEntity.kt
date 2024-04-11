@@ -4,6 +4,7 @@ import com.henrique.avengers.domain.avenger.Avenger
 import javax.persistence.*
 
 @Entity
+@Table(name = "avenger")
 data class AvengerEntity(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
